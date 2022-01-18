@@ -6,7 +6,7 @@ int[,] FillArray(int rows, int columns)
     {
         for (int j = 0; j < columns; j++)
         {
-            newMatrix[i,j] = i + j;
+            newMatrix[i,j] = i + j;          // если нужно, чтобы элементы считались не от нуля то i + j + 2
         }
     }
     return newMatrix;
